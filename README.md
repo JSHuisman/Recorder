@@ -3,7 +3,8 @@
 This repository contains the data and code accompanying the manuscript "Pathogen invasion-dependent tissue reservoirs and plasmid-encoded antibiotic degradation boost plasmid spread in the gut" by Erik Bakkeren, Joana A. Herter, Jana S. Huisman, Ersin Gül, Alexander O. Brachmann, Jörn Piel, Roland R. Regoes, Sebastian Bonhoeffer, Médéric Diard, and Wolf-Dietrich Hardt.
 
 ## Experimental Data
-Excel sheets are provided that contain all the data needed to plot the graphs, and include exact p values for statistical tests.
+The folder "source_data" contains excel sheets with all data needed to plot the graphs, and include exact p values for statistical tests.
+The folder "data" contains the data in a format compatible with the simulation/likelihood calculation code.
 
 ## Code
 We have set up stochastic simulations to model the population dynamics of Salmonella in the murine gut, with reseeding from systemic sites. The model is primarily defined in the scripts in the functions folder (see explanation below). 
