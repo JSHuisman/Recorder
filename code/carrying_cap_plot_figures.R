@@ -53,7 +53,7 @@ for (carrying_cap_i in 1:length(carrying_cap_options)){
     
 }
 
-write_csv(all_simulations, paste0(simulation_data_folder, 'all_simulation_results.csv'))
+#write_csv(all_simulations, paste0(simulation_data_folder, 'all_simulation_results.csv'))
 
 ####### Plot Sim Data #########
 
@@ -64,7 +64,8 @@ plot_df <- all_simulations %>%
          trans_pop_size = log10(trans_pop_size)) %>%
   pivot_longer(cols = 3:8, names_to = 'measure') %>%
   mutate(measure = factor(measure, levels = c('Even_recip', 'Even_trans', 'recip_pop_size', 'trans_pop_size', 
-                                              'time_CFU_recip', 'time_CFU_trans')))
+                                              'time_CFU_recip', 'time_CFU_trans'))) %>%
+  filter(measure %in% c('recip_pop_size', 'trans_pop_size') )
 
 method_names <- setNames(
   c("Evenness Chromosomal Tags",
