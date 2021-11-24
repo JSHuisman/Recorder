@@ -1,6 +1,6 @@
 # Pathogen invasion-dependent tissue reservoirs and plasmid-encoded antibiotic degradation boost plasmid spread in the gut
 
-This repository contains the data and code accompanying the manuscript "Pathogen invasion-dependent tissue reservoirs and plasmid-encoded antibiotic degradation boost plasmid spread in the gut" by Erik Bakkeren, Joana A. Herter, Jana S. Huisman, Ersin Gül, Alexander O. Brachmann, Jörn Piel, Roland R. Regoes, Sebastian Bonhoeffer, Médéric Diard, and Wolf-Dietrich Hardt.
+This repository contains the data and code accompanying the manuscript "Pathogen invasion-dependent tissue reservoirs and plasmid-encoded antibiotic degradation boost plasmid spread in the gut" by Erik Bakkeren, Joana A. Herter, Jana S. Huisman, Yves Steiger, Ersin Gül, Joshua P.M. Newson, Alexander O. Brachmann, Jörn Piel, Roland R. Regoes, Sebastian Bonhoeffer, Médéric Diard, and Wolf-Dietrich Hardt.
 
 ## Experimental Data
 The folder "source_data" contains excel sheets with all data needed to plot the graphs, and includes exact p values for statistical tests.
